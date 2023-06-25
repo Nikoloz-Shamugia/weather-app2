@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(145,29,253,1) 54%, rgba(252,176,69,1) 100%);
+    height: 65px;
+}
+.wrapper{
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper div , .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+section {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(1,34,37,1) 54%, rgba(252,176,69,1) 100%);
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: grid;
+    place-items: center;
+}
+.search{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin: 30px 0;
+    width: 500px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 30px 30px;
+    border-radius: 30px;
+}
+.input{
+    width: 380px;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+.button-img{
+    width: 18px;
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 50% ;
+    cursor: pointer;
+}
+.weather-icon{
+    width: 50px;
+}
+.card{
+    display: grid;
+    place-items: center;
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: rgb(33,47,51);
+    background: radial-gradient(circle, rgba(33,47,51,1) 24%, rgba(174,238,221,1) 65%);
+    opacity: 0.50000000298023224;
+    backdrop-filter: blur(16px);
+    width: 280px;
+    height: 400px;
+    margin-right: 20px;
+}
+.flex-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.date p{
+    font-size: 18px;
+    color: white;
+}
+.date span{
+    color: whitesmoke;
+}
+.temp{
+    font-size: 40px;
+    color: #f8f9f5;
+    margin: 30px 0px 50px 0px;
+}
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.vanish{
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+.delete-button{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
